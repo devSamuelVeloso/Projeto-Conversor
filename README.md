@@ -1,13 +1,13 @@
 # 💱 Conversor de Moedas
 
 Um projeto simples de conversor de moedas feito com HTML, CSS e JavaScript.  
-Ele permite converter valores em Real (BRL) para Dólar (USD) e Euro (EUR).
+Ele permite converter valores em Real (BRL) para Dólar (USD), Euro (EUR) e Bitcoin (BTC)
 
 ---
 
 ## 🚀 Demonstração
 
-Digite um valor em reais, selecione a moeda desejada e clique em **Converter**.
+Digite um valor em reais ou em outra moeda, selecione a moeda desejada e clique em **Converter**.
 
 ---
 
@@ -15,13 +15,13 @@ Digite um valor em reais, selecione a moeda desejada e clique em **Converter**.
 
 - HTML5
 - CSS3
-- JavaScript (Vanilla)
+- JavaScript
 
 ---
 
 ## ⚙️ Funcionalidades
 
-- Formatação automática de valores em Real (BRL)
+- Formatação automática de valores 
 - Conversão para Dólar e Euro
 - Atualização dinâmica ao mudar a moeda
 - Interface simples e responsiva
@@ -31,7 +31,8 @@ Digite um valor em reais, selecione a moeda desejada e clique em **Converter**.
 
 ## 📌 Melhorias futuras
 
-- Responsividade aprimorada
+- Responsividade
+- API
 
 ---
 
