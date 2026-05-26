@@ -6,7 +6,11 @@
 }
 
 body {
-    background: rgba(138, 81, 252, 1);
+    background-image: url("./assets/background.png");
+    background-size: cover; /* Faz cobrir a tela toda */
+    background-position: center; /* Centraliza */
+    background-repeat: no-repeat; /* Não repete */
+    min-height: 100vh; /* Altura da tela inteira */
 }
 
 .logo {
@@ -23,14 +27,15 @@ body {
     flex-direction: column;
     gap: 20px;
     margin: 0 auto;
+    margin-top: 100px;
     padding: 44px 24px 23px;
     margin-bottom: 30px;
 }
 
 label {
-    font-weight: 400;
+    font-weight: 600;
     font-size: 14px;
-    color: #777777;
+    color: #4e4e4e;
 }
 
 select,
@@ -48,8 +53,23 @@ input {
     cursor: pointer;
 }
 
+.currency-select {
+    width: 100%;
+    height: 48px;
+    border-radius: 10px;
+    background: #f4f4f4;
+    padding-left: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.currency-select option {
+    background: #ffffff;
+    color: #000;
+}
+
 button {
-    background-color: rgba(119, 47, 211, 1);
+    background-color: rgb(47, 104, 211);
     color: rgba(255, 255, 255, 1);
     width: 100%;
     border: none;
@@ -72,7 +92,7 @@ button:hover {
 }
 
 section {
-    border: rgba(119, 47, 211, 1) solid 1px;
+    border: rgb(47, 104, 211) solid 1px;
     width: 327px;
     height: 292px;
     padding: 12px;
@@ -98,6 +118,8 @@ section {
 
 .arrow {
     margin: 15px 0;
+    object-fit: cover;
+    filter: invert(50%);
 }
 
 .currency-value {
